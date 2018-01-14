@@ -1,0 +1,55 @@
+﻿生成启动时间为 2017/11/19 10:34:32。
+     1>项目“D:\Qt_Project\Serial_ModBus\Spreadsheet.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing mainwindow.h...
+         Moc'ing spreadsheet.h...
+         Generate moc_predefs.h
+         Uic'ing mainwindow.ui...
+         Rcc'ing spreadsheet.qrc...
+     1>RCC : warning : No resources in 'D:\Qt_Project\Serial_ModBus\spreadsheet.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include\QtWidgets /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include\QtGui /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include\QtANGLE /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include\QtCore /Idebug /I. /I"..\..\qt\qt5.9.2\5.9.2\msvc2013_64\mkspecs\win32-msvc" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D WIN64 /D QT_DEPRECATED_WARNINGS /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -Zc:rvalueCast -Zc:inline -w34100 -w34189 -w44996 cell.cpp cmodbus.cpp Debug\moc_mainwindow.cpp Debug\moc_spreadsheet.cpp main.cpp mainwindow.cpp spreadsheet.cpp
+         cell.cpp
+         cmodbus.cpp
+     1>cmodbus.cpp(219): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>cmodbus.cpp(241): warning C4189: “uDataLen”: 局部变量已初始化但不引用
+     1>cmodbus.cpp(240): warning C4189: “pszData”: 局部变量已初始化但不引用
+     1>cmodbus.cpp(431): warning C4018: “>”: 有符号/无符号不匹配
+         moc_mainwindow.cpp
+         moc_spreadsheet.cpp
+         main.cpp
+         mainwindow.cpp
+     1>mainwindow.cpp(284): warning C4100: “fileName”: 未引用的形参
+     1>mainwindow.cpp(304): warning C4100: “event”: 未引用的形参
+         spreadsheet.cpp
+     1>spreadsheet.cpp(340): warning C4100: “compare”: 未引用的形参
+         正在生成代码...
+     1>d:\qt_project\serial_modbus\cell.cpp(140): warning C4715: “Cell::evalExpression”: 不是所有的控件路径都返回值
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include\QtWidgets /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include\QtGui /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include\QtANGLE /I..\..\qt\qt5.9.2\5.9.2\msvc2013_64\include\QtCore /Idebug /I. /I"..\..\qt\qt5.9.2\5.9.2\msvc2013_64\mkspecs\win32-msvc" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D WIN64 /D QT_DEPRECATED_WARNINGS /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -Zc:rvalueCast -Zc:inline -w34100 -w34189 -w44996 GeneratedFiles\qrc_spreadsheet.cpp
+         qrc_spreadsheet.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\Spreadsheet.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.9.2\5.9.2\msvc2013_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:D:\Qt\Qt5.9.2\5.9.2\msvc2013_64\lib D:\Qt\Qt5.9.2\5.9.2\msvc2013_64\lib\qtmaind.lib shell32.lib D:\Qt\Qt5.9.2\5.9.2\msvc2013_64\lib\Qt5Widgetsd.lib D:\Qt\Qt5.9.2\5.9.2\msvc2013_64\lib\Qt5Guid.lib D:\Qt\Qt5.9.2\5.9.2\msvc2013_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\Spreadsheet.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\cell.obj
+         x64\Debug\cmodbus.obj
+         x64\Debug\moc_mainwindow.obj
+         x64\Debug\moc_spreadsheet.obj
+         x64\Debug\qrc_spreadsheet.obj
+         x64\Debug\main.obj
+         x64\Debug\mainwindow.obj
+         x64\Debug\spreadsheet.obj
+     1>mainwindow.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl SettingsDialog::SettingsDialog(class QWidget *)" (??0SettingsDialog@@QEAA@PEAVQWidget@@@Z)，该符号在函数 "public: __cdecl MainWindow::MainWindow(class QWidget *)" (??0MainWindow@@QEAA@PEAVQWidget@@@Z) 中被引用
+     1>mainwindow.obj : error LNK2019: 无法解析的外部符号 "public: struct SettingsDialog::Settings __cdecl SettingsDialog::settings(void)const " (?settings@SettingsDialog@@QEBA?AUSettings@1@XZ)，该符号在函数 "private: void __cdecl MainWindow::openSerialPort(void)" (?openSerialPort@MainWindow@@AEAAXXZ) 中被引用
+     1>mainwindow.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl CParamDlg::CParamDlg(class QDialog *)" (??0CParamDlg@@QEAA@PEAVQDialog@@@Z)，该符号在函数 "private: void __cdecl MainWindow::openParamDlg(void)" (?openParamDlg@MainWindow@@AEAAXXZ) 中被引用
+     1>spreadsheet.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl CCSVFile::~CCSVFile(void)" (??1CCSVFile@@QEAA@XZ)，该符号在函数 "public: __cdecl CParamData::~CParamData(void)" (??1CParamData@@QEAA@XZ) 中被引用
+     1>spreadsheet.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl CCSVFile::OpenCSVFile(class QString)" (?OpenCSVFile@CCSVFile@@QEAAHVQString@@@Z)，该符号在函数 "public: __cdecl Spreadsheet::Spreadsheet(class QWidget *)" (??0Spreadsheet@@QEAA@PEAVQWidget@@@Z) 中被引用
+     1>spreadsheet.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl CParamData::CParamData(void)" (??0CParamData@@QEAA@XZ)，该符号在函数 "public: __cdecl Spreadsheet::Spreadsheet(class QWidget *)" (??0Spreadsheet@@QEAA@PEAVQWidget@@@Z) 中被引用
+     1>spreadsheet.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl CCheckBoxHeaderView::metaObject(void)const " (?metaObject@CCheckBoxHeaderView@@UEBAPEBUQMetaObject@@XZ)
+     1>spreadsheet.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl CCheckBoxHeaderView::qt_metacast(char const *)" (?qt_metacast@CCheckBoxHeaderView@@UEAAPEAXPEBD@Z)
+     1>spreadsheet.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl CCheckBoxHeaderView::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@CCheckBoxHeaderView@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+     1>spreadsheet.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl CCheckBoxHeaderView::checkStatusChange(bool)" (?checkStatusChange@CCheckBoxHeaderView@@QEAAX_N@Z)，该符号在函数 "protected: virtual void __cdecl CCheckBoxHeaderView::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@CCheckBoxHeaderView@@MEAAXPEAVQMouseEvent@@@Z) 中被引用
+     1>debug\\Spreadsheet.exe : fatal error LNK1120: 10 个无法解析的外部命令
+     1>已完成生成项目“D:\Qt_Project\Serial_ModBus\Spreadsheet.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:13.81
